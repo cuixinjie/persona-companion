@@ -1,0 +1,32 @@
+# 运行时私有数据：真实 data-dir 在 skill 包外，以下用于仓库内测试目录
+.test-data/
+dist/
+/private/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+backups/
+tmp/
+
+# 本地凭据
+.env
+.env.*
+!.env.example
+.credentials.yaml
+.credentials.yml
+
+# 安装副本：源码唯一维护在 skill/persona-companion/
+.dsh/skills/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

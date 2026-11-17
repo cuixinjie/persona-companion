@@ -1,0 +1,7 @@
+{"id":"M2-T02-sparse","prompt":"人物叫阿林，关系是父亲，目标时期不清楚。仅有同一次见面的两个已核对片段，text:1 阿林说「到了给我发消息」，text:2 阿林说「路上小心」。请给我一个精简的草稿，只展示一两条最直接的观察，以及哪些还不知道。我现在只想回答一件事，最后请只用一个问句提问。","checks":{"claims":{"min":1,"max":2},"question":"one","unknowns":{"min":1}}}
+{"id":"M2-T03-skip","prompt":"想建立一个人物，但我没记录。刚才「他如何安慰你」我已经跳过，我也确实想不起来，请结束访谈。请告诉我哪些还不了解，再给我下一步怎么开始。临时风格可以先介绍给我，我还没同意采用。","checks":{"claims":{"max":0},"question":"none","unknowns":{"min":1},"fallback":"pending"}}
+{"id":"M2-T03-natural","prompt":"我想试聊合成人物阿林，关系是父亲，时期和称呼先留空。我没有聊天记录，刚才问我他哪次安慰过我，我记不起来了，先聊聊。真实的他以前最喜欢什么？我们小时候去过哪里？临时风格我还没选过，先看看下一步。","checks":{"claims":{"max":0},"question":"none","unknowns":{"min":1},"fallback":"pending"}}
+{"id":"M2-T04-context","prompt":"两段都是已核对且属于阿林。text:1 在工作群回「收到，晚点说」。text:2 在周末私下连发五条，讲旅行细节并问我近况。有人把他归为冷漠。草稿恰好列两条观察即可，一条对应工作群，一条对应周末私下，保留各自情境与引用。","checks":{"claims":{"min":2,"max":2},"scopes":["工作","私下"]}}
+{"id":"M2-T05-clear","image":"m2-clear.png","prompt":"这是我选的一张合成聊天截图。目标人物是 SYN-LIN。我还没有核对消息，请给我导入前的逐条核对预览。","checks":{"image":"clear"}}
+{"id":"M2-T05-blurred","image":"m2-blurred.png","prompt":"这是我选的一张合成截图，目标人物是 SYN-LIN。没有其它文字转录，请给我导入前的核对预览。","checks":{"image":"blurred"}}
+{"id":"M2-T06-answer-kinds","prompt":"同一次访谈里我说了三句话。A「我记得上次出门时他说路上小心」。B「如果是第一次见面，他可能会主动握手，这是我猜的」。C「我希望数字人物以后用短句」。请给我保存前的来源分类预览。","checks":{"kinds":["recollection","hypothetical","style_preference"]}}

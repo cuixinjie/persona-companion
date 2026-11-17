@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "request_id": "56536dcd-e51f-45d1-a181-a6c13a575414",
+  "operation": "persona.create",
+  "payload": {
+    "display_name": "合成人物阿林",
+    "relationship": "朋友",
+    "target_period": "大学期间",
+    "address_terms": {
+      "user_to_persona": "阿林",
+      "persona_to_user": "小周"
+    }
+  }
+}
